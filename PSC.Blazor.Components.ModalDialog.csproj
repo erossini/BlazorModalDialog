@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Enrico Rossini</Authors>
+    <Company>Enrico Rossini  - PureSourceCode</Company>
+    <PackageTags>blazor, blazor-webassembly, blazor-component</PackageTags>
+    <PackageIcon>avatar.jpeg</PackageIcon>
+    <PackageIconUrl />
+    <Description>Simple ModalDialog for Blazor WebAssembly</Description>
+    <RepositoryUrl>https://github.com/erossini/BlazorModalDialog</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Enrico Rossini</Copyright>
+    <PackageProjectUrl>https://www.puresourcecode.com/dotnet/blazor/modal-dialog-component-for-blazor/</PackageProjectUrl>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\enric\OneDrive\Pictures\avatar.jpeg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\..\FromGitHub\BlazorModalDialog\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
